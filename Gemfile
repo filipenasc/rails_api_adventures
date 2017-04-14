@@ -9,6 +9,8 @@ gem 'rails', '~> 5.0.2'
 gem 'sqlite3'
 gem 'puma', '~> 3.0'
 
+gem 'active_model_serializers'
+
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '>= 3.5.0'
